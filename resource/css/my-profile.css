@@ -1,0 +1,79 @@
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button {
+    background: rgb(99, 39, 120);
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover {
+    background: #682773
+}
+
+.profile-button:focus {
+    background: #682773;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #682773;
+    box-shadow: none
+}
+
+.back:hover {
+    color: #682773;
+    cursor: pointer
+}
+
+.custom-container
+{
+    margin-top:100px !important;
+}
+
+.custom-font
+{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.labels {
+    font-size: 11px
+}
+
+.add-experience:hover {
+    background: #BA68C8;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #BA68C8
+}
+
+.form-control {
+    border-width: 0 0 2px;
+    border-color: #dfdfdf;
+    border-style: solid;
+    border-radius: 0;
+    padding: 0 0 5px;
+    color: #000
+}
+
+.form-control:active,
+.form-control:focus {
+    box-shadow: none;
+    border-color: #6f42c1 !important;
+    color: #000
+}
+
+select.form-control,
+select.form-control:focus {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(../../resource/img/dropdown.svg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: right bottom 9px
+}
